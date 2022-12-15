@@ -6,8 +6,9 @@ import axios from "axios";
 
 //these will go into a .env file
 export const apiKey = '49699de1f7bd083284833b4e87dd276d'; 
-export const baseUrl = 'http://ws.audioscrobbler.com/2.0/';
+export const baseUrl = 'https://ws.audioscrobbler.com/2.0/';
 export const artist = "John+Mayer"
+
 
 export type ArtistInfo = {
     name: string,
