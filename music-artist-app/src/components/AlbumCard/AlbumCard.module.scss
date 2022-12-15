@@ -1,0 +1,78 @@
+.container {
+    display: inline-block;
+}
+.container:hover {
+    transform: scale(1.05);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.albumCard {
+    background-color: #adb5bd;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 11px 10px 24px -5px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 11px 10px 24px -5px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 11px 10px 24px -5px rgba(0, 0, 0, 0.31);
+    padding: 4px;
+    margin: 10px;
+}
+
+.image {
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+}
+.albumTitle {
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 10px;
+    width: 200px;
+}
+
+.albumCardButton {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+.albumCardButton :hover {
+    cursor: pointer;
+}
+
+.year {
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 5px 10px;
+    width: 200px;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    background-color: #495057;
+    border-radius: 10px;
+    box-shadow: 24px;
+    padding: 4px;
+}
+
+.modalTitle{
+    text-align: center;
+    color: white;
+}
+
+.songTitle{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

@@ -1,0 +1,12 @@
+
+
+.appHeader{
+    background-color: #212529;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}

@@ -1,0 +1,52 @@
+.container {
+    padding: 20px 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.scroller {
+    width: 75vw;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+.arrow {
+    background-color: inherit;
+    border: 0;
+    color: white;
+}
+.arrow :hover {
+    cursor: pointer;
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sortDiv{
+    margin: 50px 0 0 0;
+    width: 90%;
+    display: flex;
+    justify-content: right;
+}
+
+.sortButton{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.select{
+    padding: 5px 10px;
+    background-color: #CED4DA;
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+}
